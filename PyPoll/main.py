@@ -59,7 +59,7 @@ print(f"Correy: {correy_percentage}% ({correy_votes})")
 print(f"Li: {li_percentage}% ({li_votes})")
 print(f"O'Tooley: {otooley_percentage}% ({otooley_votes})")
 print("-------------------------------------------")
-print(f"Winner: {winner}!")
+print(f"Winner: {winner}")
 
 import sys
 sys.stdout = open("python-challenge/PyPoll/Analysis/election_data_analysis.txt", "w")
@@ -73,6 +73,6 @@ print(f"Correy: {correy_percentage}% ({correy_votes})")
 print(f"Li: {li_percentage}% ({li_votes})")
 print(f"O'Tooley: {otooley_percentage}% ({otooley_votes})")
 print("-------------------------------------------")
-print(f"Winner: {winner}!")
+print(f"Winner: {winner}")
 
 sys.stdout.close()
