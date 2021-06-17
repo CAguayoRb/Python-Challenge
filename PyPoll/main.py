@@ -1,7 +1,5 @@
 import os
 import csv
-from collections import Counter
-import sys
 
 poll_csv = 'python-challenge/PyPoll/Resources/election_data.csv'
 
@@ -63,6 +61,7 @@ print(f"O'Tooley: {otooley_percentage}% ({otooley_votes})")
 print("-------------------------------------------")
 print(f"Winner: {winner}!")
 
+import sys
 sys.stdout = open("python-challenge/PyPoll/Analysis/election_data_analysis.txt", "w")
 
 print("Election Results")

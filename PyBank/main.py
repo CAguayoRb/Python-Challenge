@@ -32,11 +32,9 @@ with open(budgetdata_csv, newline = "") as data_csv:
     print(f'Total Months: {total_months}')
     print(f'Total: ${total_sum}')
     print(f'Average Change: ${average_change}')
-    print(f'Greatest Increase: ${greatest_increase}')
-    print(f'Greatest Decrease: ${greatest_decrease}')
+    print(f'Greatest Increase in Profits: ${greatest_increase}')
+    print(f'Greatest Decrease in Profits: ${greatest_decrease}')
    
-
-#outputfile = 'Analysis/budget_data_hl.txt'
 
 import sys
 sys.stdout = open("python-challenge/PyBank/Analysis/budget_data_analysis.txt", "w")
@@ -46,17 +44,9 @@ print("-------------------------------------")
 print(f"Total Months: {total_months}")
 print(f"Total: ${total_sum}")
 print(f"Average Change: ${average_change}")
-print(f"Greatest Increase: ${greatest_increase}")
-print(f"Greatest Decrease: ${greatest_decrease}")
+print(f"Greatest Increase in Profits: ${greatest_increase}")
+print(f"Greatest Decrease in Profits: ${greatest_decrease}")
    
 sys.stdout.close()
 
-#with open(outputfile, 'w') as output:
-#    output.write('Financial Analysis\n')
-#    output.write('--------------------------------\n')
- #   output.write(f'Total Months: {total_months}\n')
- #   output.write(f'Total: ${(total_change))}\n')
- #   output.write(f'Average Change: ${change_months}\n')
-  #  output.write(f'Greatest Increase: ${greatest_increase}\n')
-  #  output.write(f'Greatest Decrease: ${greatest_decrease}\n')
 
